@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the JAR file into the container at /app
-COPY target/employee-registration-0.0.1-SNAPSHOT.jar /app/
+COPY target/demo-0.0.1-SNAPSHOT.jar /app/
 
 # Expose port 8080 to the outside world
 EXPOSE 8080
